@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Z Dashboards</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="Description" content="Juste quelques tests...">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/zbot.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark justify-content-between">
+        <div class="dropdown">
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav nav-tabs">
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://zbot.rtfd.io">Documentation</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Presentation</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Dashboard</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="nav-item">
+            <h1 class="navbar-brand">ZBot Dashboard</h1>
+        </div>
+        <div class="nav-item" id="profile-button">
+            <a class="nav-link" href="#">Profile</a>
+        </div>
+    </nav>
+    <br>
+
+    <div class="container-fluid mt-3">
+        <div class="row">
+
+            <!-- Général -->
+            <div class="col-lg dashboard-box">
+                <div class="box-title">Général</div>
+                <div class="box-option">
+                    <span class="option-title">Préfixe</span><span class="option-desc">Le symbole devant une
+                        commande</span>
+                    <input type="text" class="form-control" placeholder="!" id="prefix" maxlength=5>
+                </div>
+                <div class="box-option">
+                    <span class="option-title">Description</span><span class="option-desc">Texte par défaut pour les
+                        partenariats</span>
+                    <textarea type="textarea" class="form-control" id="description" maxlength=200></textarea>
+                </div>
+            </div>
+
+            <!-- Bienvenue -->
+            <div class="col-lg dashboard-box">
+                <div class="box-title">Bienvenue</div>
+                <div class="box-option">
+                    <span class="option-title">Salon</span><span class="option-desc">Le salon où envoyer les
+                        messages</span>
+                    <br>
+                    <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+                        Sélectionnez le salon
+                    </button>
+                    <div class="dropdown-menu">
+                        <option class="dropdown-item" value="1234">#welcome</option>
+                        <option class="dropdown-item" value="3456">#staff</option>
+                        <option class="dropdown-item" value="8795">#general</option>
+                    </div>
+                </div>
+                <div class="box-option">
+                    <span class="option-title">Message de bienvenue</span><span class="option-desc">Affiché à chaque
+                        nouveau membre</span>
+                    <textarea type="textarea" class="form-control" id="welcome-msg" maxlength=500></textarea>
+                </div>
+                <div class="box-option">
+                    <span class="option-title">Message de départ</span><span class="option-desc">Affiché à chaque départ
+                        d'un membre</span>
+                    <textarea type="textarea" class="form-control" id="leave-msg" maxlength=200></textarea>
+                </div>
+                <div class="box-option">
+                    <span class="option-title">Rôle des arrivants</span><span class="option-desc">Un rôle à donner aux
+                        nouveaux arrivants</span>
+                    <br>
+                    <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+                        Sélectionnez le rôle
+                    </button>
+                    <div class="dropdown-menu">
+                        <option class="dropdown-item" value="1234">@New role</option>
+                        <option class="dropdown-item" value="8795">@vip</option>
+                        <option class="dropdown-item" value="3456">@Admin</option>
+                        <option class="dropdown-item" value="8795">@Zbot</option>
+                    </div>
+                </div>
+            </div>
+
+            <!-- empty -->
+            <div class="col-lg dashboard-box">
+                hi
+            </div>
+
+        </div>
+        <div class="row">
+            <!-- empty -->
+            <div class="col-lg dashboard-box">
+                hi
+            </div>
+
+            <!-- empty -->
+            <div class="col-lg dashboard-box">
+                hi
+            </div>
+
+            <!-- empty -->
+            <div class="col-lg dashboard-box">
+                hi
+            </div>
+        </div>
+        <div class="row">
+            <!-- empty -->
+            <div class="col-lg dashboard-box">
+                hi
+            </div>
+            <div class="col-lg dashboard-box empty">
+
+            </div>
+            <div class="col-lg dashboard-box empty">
+
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
