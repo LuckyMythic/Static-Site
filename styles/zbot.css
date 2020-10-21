@@ -1,0 +1,21 @@
+body {
+    background-image: url("https://zrunner.me/zbot/assets/bgfinal.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.navbar-brand {
+    color: seagreen;
+}
+
+.dashboard-box {
+    background-color: rgba(0, 153, 0, 0.9);
+    border: whitesmoke solid 3px;
+    border-radius: 10px;
+}
