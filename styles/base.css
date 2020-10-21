@@ -1,0 +1,60 @@
+.nav-item > .nav-link {
+    border-width: 0px;
+    border-radius: 2px;
+}
+
+.nav-item > .nav-link:hover {
+    color: lightblue;
+}
+
+.nav-tabs {
+    border: none;
+}
+
+.navbar:first-child {
+    margin-right: auto;
+}
+
+.navbar:last-child {
+    margin-left: auto;
+}
+
+
+/* boxes style */
+
+.dashboard-box {
+    margin: 8px 20px;
+    min-height: 100px;
+}
+
+.dashboard-box.empty {
+    background: initial;
+    border: initial;
+}
+
+.box-title {
+    text-align: center;
+    font-size: 24px;
+    font-variant: small-caps;
+    margin: 15px 0px;
+}
+
+.box-option {
+    padding-bottom: 15px;
+}
+
+.option-title {
+    font-size: 20px;
+    font-variant: small-caps;
+    color: whitesmoke;
+    margin: 0px 10px;
+}
+
+.option-desc {
+    font-size: small;
+    color: darkslategrey;
+}
+
+textarea.form-control {
+    resize: none;
+}
