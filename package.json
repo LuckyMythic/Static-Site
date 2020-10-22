@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Yankovsky/static-heroku-nodejs/issues"
   },
-  "homepage": "https://github.com/Yankovsky/static-heroku-nodejs"
+  "homepage": "https://github.com/Yankovsky/static-heroku-nodejs",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
